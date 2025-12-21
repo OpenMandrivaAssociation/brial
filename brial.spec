@@ -17,6 +17,11 @@ URL:		https://github.com/BRiAl/BRiAl/
 Source0:	https://github.com/BRiAl/BRiAl/releases/download/%{version}/%{name}-%{version}.tar.bz2
 # brial-0.8.5/Cudd/cudd/cudd.h:#define CUDD_VERSION "2.5.0"
 Provides:	bundled(cudd) = 2.5.0
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	boost-devel
 BuildRequires:	gd-devel
 BuildRequires:	python2-devel
